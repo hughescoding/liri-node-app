@@ -51,5 +51,5 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
 
 You will need your own spotify api keys to make this work.
 
-Find screenshots and proof of functionality on my portfolio page: https://hughescoding.github.io/portfolio/portfolio.html
+Find video proof of LIRI Node App functionality on my portfolio page: https://hughescoding.github.io/portfolio/portfolio.html
 
