@@ -4,7 +4,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a co
 
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-Commands:
+Command 1:
 
     node liri.js concert-this 'artist/band name here'
 
@@ -14,6 +14,7 @@ Commands:
      * Venue location
      * Date of the Event
 
+Command 2:
 
     node liri.js spotify-this-song 'song name here'     (use quotes for multi-word song titles)
 
@@ -25,6 +26,8 @@ Commands:
      * The album that the song is from
 
 If no song is provided then the program will default to "The Sign" by Ace of Base.
+
+Command 3:
 
     node liri.js movie-this 'movie name here'     (use quotes for multi-word song titles)
 
@@ -41,12 +44,13 @@ This will output the following information to your terminal:
 
 If you do not type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
+Command 4:
 
     node liri.js do-what-it-says
 
 LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
-It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+It will run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
 
 
