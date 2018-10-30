@@ -6,7 +6,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 Commands:
 
- node liri.js concert-this 'artist/band name here'
+    *node liri.js concert-this 'artist/band name here'*
 
  This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -14,7 +14,7 @@ Commands:
      * Venue location
      * Date of the Event
 
- node liri.js spotify-this-song 'song name here'     (use quotes for multi-word song titles)
+    *node liri.js spotify-this-song 'song name here'*     (use quotes for multi-word song titles)
 
  This will show the following information about the song in the terminal:
 
@@ -23,9 +23,9 @@ Commands:
      * A preview link of the song from Spotify
      * The album that the song is from
 
-   * If no song is provided then the program will default to "The Sign" by Ace of Base.
+If no song is provided then the program will default to "The Sign" by Ace of Base.
 
-node liri.js movie-this 'movie name here'     (use quotes for multi-word song titles)
+    *node liri.js movie-this 'movie name here'*     (use quotes for multi-word song titles)
 
 This will output the following information to your terminal:
 
@@ -41,11 +41,11 @@ This will output the following information to your terminal:
 If you do not type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
-node liri.js do-what-it-says 
+    *node liri.js do-what-it-says*
 
 LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
-     * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
 
 
