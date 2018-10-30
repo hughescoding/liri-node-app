@@ -2,13 +2,13 @@
 
 LIRI is a _Language_ _Interpretation_ _and_ _Recognition_ _Interface_. LIRI is a command line node app that takes in parameters and gives you back data.
 
-LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+LIRI will search **Spotify** for _songs_, **Bands in Town** for _concerts_, and **OMDB** for _movies_.
 
 **Command 1:**
 
     node liri.js concert-this 'artist/band name here'
 
- This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
+ This will search the **Bands in Town** _Artist Events API_ for an artist and render the following information about each event to the terminal:
 
      * Name of the venue
      * Venue location
@@ -18,7 +18,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
     node liri.js spotify-this-song 'song name here'     (use quotes for multi-word song titles)
 
- This will show the following information about the song in the terminal:
+ This will search the **Spotify API** and show the following information about the song in the terminal:
 
      * Artist(s)
      * The song's name
@@ -31,7 +31,7 @@ If no song is provided then the program will default to "The Sign" by Ace of Bas
 
     node liri.js movie-this 'movie name here'     (use quotes for multi-word song titles)
 
-This will output the following information to your terminal:
+This will search the **OMDB** and will output the following information to your terminal:
 
        Title of the movie.
        * Year the movie came out.
