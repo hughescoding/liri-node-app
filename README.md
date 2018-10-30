@@ -14,7 +14,7 @@ Commands:
      * Venue location
      * Date of the Event
 
- node liri.js spotify-this-song '<song name here>'     (use quotes for multi-word song titles)
+ node liri.js spotify-this-song <song name here>     (use quotes for multi-word song titles)
 
  This will show the following information about the song in the terminal:
 
@@ -25,7 +25,7 @@ Commands:
 
    * If no song is provided then the program will default to "The Sign" by Ace of Base.
 
-node liri.js movie-this '<movie name here>'     (use quotes for multi-word song titles)
+node liri.js movie-this <movie name here>     (use quotes for multi-word song titles)
 
 This will output the following information to your terminal:
 
