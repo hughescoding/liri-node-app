@@ -46,3 +46,10 @@ node liri.js do-what-it-says
 LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+
+
+
+You will need your own spotify api keys to make this work.
+
+Find screenshots and proof of functionality on my portfolio page: https://hughescoding.github.io/portfolio/portfolio.html
+

@@ -144,7 +144,7 @@ var movieThis = function (movieName) {
         }
     })
 };
-//function to read input from text file, uses fs.readFile. found in npm docs. 
+//do-what-it-says function to read input from text file, uses fs.readFile. found in npm docs. This was hard. 
 var doWhat = function () {
     fs.readFile("random.txt", "utf8", function (err, data) {
         if (err) {
