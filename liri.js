@@ -57,7 +57,7 @@ var concertThis = function (artistName) {
 
                 var date = data[i].datetime;
                 date = moment(date).format("MM/DD/YYYY");
-                console.log("\n                   ")//added this to seperate multiple results
+                console.log("\n                   ")//seperate multiple results
                 console.log("\x1b[36m","Date: ","\x1b[0m" + date)
                 console.log("\x1b[36m","Venue: ","\x1b[0m" + data[i].venue.name);
 
